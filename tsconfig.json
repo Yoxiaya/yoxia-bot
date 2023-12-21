@@ -1,0 +1,20 @@
+{
+    "include": ["./src/**/*.ts", "App.ts", "**/*.ts", "config/**/*"],
+    "exclude": ["./dist"],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "esModuleInterop": false,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "outDir": "./dist",
+        "allowImportingTsExtensions": true,
+        "noEmit": true
+    },
+    "ts-node": {
+        "esm": true
+    }
+}
