@@ -1,9 +1,11 @@
-# 自用脚手架
+# yoxia-bot
+
+QQ 机器人小优夏
 
 > 拉取本项目
 
 ```bash
-git clone https://github.com/Yozorani-koi/my-ts-cli.git
+https://github.com/Yozorani-koi/yoxia-bot.git
 ```
 
 > 安装依赖
@@ -17,7 +19,7 @@ pnpm install
 > 启动
 
 ```bash
-pnpm run start
+yox start
 ```
 
 ```js
